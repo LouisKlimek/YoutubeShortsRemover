@@ -1,8 +1,8 @@
-# YouTube Shorts Remover - Firefox Extension
-
 <p align="center">
+    # YouTube Shorts Remover - Firefox Extension
   <img src="./icon-original.png" alt="YouTube Shorts Remover Icon" width="256" />
 </p>
+
 
 A Firefox extension to hide YouTube Shorts, enabling a more streamlined browsing experience on YouTube by removing the Shorts section.
 
