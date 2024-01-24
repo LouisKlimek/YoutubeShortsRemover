@@ -1,0 +1,23 @@
+{
+
+  "description": "A Firefox extension to hide YouTube Shorts",
+  "permissions": ["activeTab"],
+  "manifest_version": 1,
+  "name": "YouTube Shorts Remover",
+  "version": "1.0",
+  "homepage_url": "https://github.com/LouisKlimek/YoutubeShortsRemover",
+  "icons": {
+    "48": "icons/border-48.png",
+    "128": "icons/border-128.png",
+    "256": "icons/border-256.png",
+    "512": "icons/border-512.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["shorts-remover.js"]
+    }
+  ]
+
+}
