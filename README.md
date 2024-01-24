@@ -8,6 +8,8 @@
 A Firefox extension to hide YouTube Shorts, enabling a more streamlined browsing experience on YouTube by removing the Shorts section.
 </p>
 
+
+
 ## Features
 
 - **Hide Shorts**: Automatically hides all elements related to YouTube Shorts on the YouTube website.
