@@ -4,9 +4,9 @@
 <h1 align="center">YouTube Shorts Remover - Firefox Extension</h1>
 
 
-
-
+<p align="center">
 A Firefox extension to hide YouTube Shorts, enabling a more streamlined browsing experience on YouTube by removing the Shorts section.
+</p>
 
 ## Features
 
