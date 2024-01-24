@@ -18,17 +18,7 @@ A Firefox extension to hide YouTube Shorts, enabling a more streamlined browsing
 
 ## Installation
 
-To install the YouTube Shorts Remover extension:
-
-1. Download in the Firefox addon Store: https://addons.mozilla.org/en-US/firefox/addon/youtube-shorts-remover-blocker/
-
-OR
-
-1. Download the latest version of the extension from the [releases page](#).
-2. Open Firefox and navigate to `about:addons`.
-3. Click on the gear icon and select `Install Add-on From File...`.
-4. Find the downloaded `.xpi` file and select it to install.
-5. Confirm the installation when prompted by Firefox.
+To install the YouTube Shorts Remover extension download it in the Firefox addon Store: https://addons.mozilla.org/en-US/firefox/addon/youtube-shorts-remover-blocker/
 
 ## Usage
 
