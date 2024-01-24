@@ -1,9 +1,7 @@
 <p align="center">
   <img src="./icon-original.png" alt="YouTube Shorts Remover Icon" width="256" />
 </p>
-<p align="center">
-  <h1>YouTube Shorts Remover - Firefox Extension</h1>
-</p>
+<h1 align="center">YouTube Shorts Remover - Firefox Extension</h1>
 
 
 
