@@ -6,7 +6,7 @@ function hideShorts() {
             console.warn("Couldn't find Youtube Shorts Section");
             return undefined;
         }
-        if((elem.tagName.toLowerCase() === "ytd-rich-section-renderer") || (elem.tagName.toLowerCase() === "ytd-guide-entry-renderer")) {
+        if((elem.tagName.toLowerCase() === "ytd-rich-section-renderer") || (elem.tagName.toLowerCase() === "ytd-guide-entry-renderer") || (elem.tagName.toLowerCase() === "ytd-reel-shelf-renderer")) {
             return elem;
         }
         return findAncestorElemWithTagName(elem.parentElement);
@@ -27,6 +27,15 @@ function hideShorts() {
             parentElem.style.display = "none";
         }
     }
+     
+    const potentialShortsGuideEntryHeadlineElems = document.querySelectorAll("span#title.style-scope.ytd-reel-shelf-renderer");
+    for(const elem of potentialShortsGuideEntryHeadlineElems) {
+        if(elem.innerHTML === "Shorts") {
+            const parentElem = findAncestorElemWithTagName(elem.parentElement);
+            parentElem.style.display = "none";
+        }
+    }
+
 
 }
 
